@@ -1,0 +1,31 @@
+{
+  "slug": "",
+  "one_liner": "",
+  "graph": "idea-diamond",
+  "created": "",
+  "updated": "",
+  "stage": "intake",
+  "verdict": null,
+  "confidence": null,
+  "contract_frozen": null,
+  "nodes": {
+    "intake":          { "status": "pending", "file": "00-intake.md",        "note": "" },
+    "contract":        { "status": "pending", "file": "01-contract.md",      "note": "" },
+    "contract_audit":  { "status": "pending", "file": "01-contract.md",      "note": "fresh agent" },
+    "plan":            { "status": "pending", "file": "02-plan.md",          "note": "fresh agent, no research" },
+    "lane_customer":   { "status": "pending", "file": "03-customer.md",      "note": "blind" },
+    "lane_competitor": { "status": "pending", "file": "03-competitor.md",    "note": "blind" },
+    "lane_distribution":{ "status": "pending","file": "03-distribution.md",  "note": "blind" },
+    "lane_economics":  { "status": "skipped", "file": "03-economics.md",     "note": "conditional" },
+    "lane_risk":       { "status": "skipped", "file": "03-risk.md",          "note": "conditional" },
+    "skeptic":         { "status": "pending", "file": "04-skeptic.md",       "note": "fresh agent" },
+    "merge":           { "status": "pending", "file": "05-recommendation.md","note": "fresh agent" },
+    "referee":         { "status": "skipped", "file": "06-referee.md",       "note": "conditional, high stakes" },
+    "gate":            { "status": "pending", "file": "07-decision.md",      "note": "human" },
+    "knowledge":       { "status": "pending", "file": "../../knowledge/",    "note": "append, dated" }
+  },
+  "evidence": { "A": 0, "B": 0, "C": 0, "D": 0, "stale_flags": 0 },
+  "open_questions": [],
+  "early_stop": null,
+  "log": []
+}

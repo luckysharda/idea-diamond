@@ -1,0 +1,21 @@
+{
+  "name": "startupresearch",
+  "id": "startupresearch",
+  "owner": { "name": "Lucky Sharda" },
+  "metadata": {
+    "description": "Graph-engineered research workflows: work split into jobs, checkers separated from workers, every node leaving a file behind.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "idea-diamond",
+      "source": "./idea-diamond",
+      "description": "Validate a startup idea through the Diamond graph, with blind parallel research, an adversarial skeptic, an independent merge, and a human gate.",
+      "version": "1.0.0",
+      "author": { "name": "Lucky Sharda" },
+      "keywords": ["research", "startup", "validation", "multi-agent", "decision"],
+      "category": "research",
+      "strict": false
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "idea-diamond",
+  "version": "1.0.0",
+  "description": "Validate a startup idea with the Diamond graph: a decision contract frozen before any evidence exists, parallel researchers who cannot see each other, an adversarial skeptic, an independent merge, and a human gate. The model that writes the answer never grades the answer.",
+  "author": { "name": "Lucky Sharda" },
+  "license": "MIT",
+  "keywords": [
+    "research", "startup", "validation", "graph-engineering",
+    "multi-agent", "decision", "due-diligence", "evidence"
+  ]
+}
